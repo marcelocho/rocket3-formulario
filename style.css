@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  margin: auto;
+  background: #e5e5e5;
+}
+
+h1,
+legend,
+button,
+h2 {
+  font-family: "Staatliches", sans-serif;
+}
+
+p,
+label,
+input {
+  font-family: "Poppins", sans-serif;
+}
+
+label,
+input {
+  color: #4e4958;
+}
+
+legend,
+h2 {
+  color: #535971;
+}
+
+span {
+  color: #c1bccc;
+  font-size: 12px;
+}
+
+header {
+  background: #535971;
+  height: 436px;
+  width: 100%;
+  color: #ffffff;
+}
+
+.header-text {
+  width: 750px;
+  margin: auto;
+  padding-top: 140px;
+}
+
+.header-text h1 {
+  font-size: 48px;
+  font-weight: normal;
+}
+
+.header-text p {
+  width: 417px;
+  font-size: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 750px;
+  margin: auto;
+  border-radius: 20px 20px 0 0;
+  margin-top: -114px;
+  background: #ffffff;
+  padding: 64px;
+}
+
+fieldset {
+  border: none;
+  padding-bottom: 14px;
+}
+
+legend {
+  font-size: 24px;
+  font-weight: normal;
+  width: 100%;
+  border-bottom: 1px solid #e6e6f0;
+}
+
+.pessoais {
+  padding-bottom: 16px;
+}
+
+.legend {
+  padding-bottom: 8px;
+}
+
+.nome-sobrenome {
+  display: flex;
+  padding-top: 36px;
+  gap: 22px;
+  width: 100%;
+}
+
+input {
+  margin-top: 8px;
+  margin-bottom: 16px;
+  background: #fafafc;
+  border: 1px solid #e6e6f0;
+  border-radius: 8px;
+  height: 56px;
+  width: 100%;
+}
+
+h2 {
+  padding-top: 32px;
+  font-weight: normal;
+}
+.segunda {
+  padding-top: 0;
+}
+
+label {
+  padding-top: 30px;
+}
+
+.data-hora {
+  display: flex;
+  gap: 20px;
+  padding-top: 8px;
+}
+
+.data-hora > div:nth-child(1) {
+  width: 50%;
+}
+.data-hora > div:nth-child(2) {
+  width: 25%;
+}
+.data-hora > div:nth-child(3) {
+  width: 25%;
+}
+
+footer {
+  width: 750px;
+  height: 160px;
+  background: #535971;
+  margin: auto;
+  margin-bottom: 366px;
+  text-align: center;
+  border-radius: 0 0 20px 20px;
+}
+
+footer button {
+  background: #ff5374;
+  width: 608px;
+  height: 55.65px;
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 53px;
+}
+
+footer button:hover {
+  background: #7e2738;
+  cursor: pointer;
+}
